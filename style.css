@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+
+:root {
+  --primary-color: #1e1bdb;
+  --secondary-color: #357bc2;
+  --text-color: #15282c;
+  --background-color: #918981;
+  --button-hover: #0f5d7c;
+  --font-body: 'Quattrocento', serif;
+  --font-titulo: 'Suez One', serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+li{
+    margin-top: 20px;
+  font-size: 20px;
+}
+h3 {
+  font-family: var(--font-titulo);
+  font-size: 28px;
+  margin-top: 25px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+img {
+    max-width: 90%;
+}
+.texto-claro p {
+  color: #000000;
+}
 
